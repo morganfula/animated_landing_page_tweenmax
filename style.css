@@ -3,6 +3,7 @@ body {
   margin: 0;
   padding: 0;
   width: 100%;
+  overflow: hidden;
 }
 
 .container {
@@ -21,7 +22,7 @@ body {
 
 .logo {
   color: white;
-  font-family: "Cinzel";
+  font-family: 'Cinzel';
 }
 
 .lang {
@@ -41,7 +42,7 @@ body {
   width: 50%;
   height: 100vh;
   left: 50%;
-  background: url("./img/img-right.jpg") no-repeat 50% 50%;
+  background: url('./img/img-right.jpg') no-repeat 50% 50%;
   background-size: 110%;
   animation: animatedBackground1 6s cubic-bezier(0.19, 1, 0.22, 1);
   animation-delay: 5s;
@@ -63,7 +64,7 @@ body {
   transform: translate(-50%, -50%);
   width: 300px;
   height: 400px;
-  background: url("./img/img-left.jpg") no-repeat 50% 50%;
+  background: url('./img/img-left.jpg') no-repeat 50% 50%;
   background-size: 210%;
   animation: animatedBackground2 6s cubic-bezier(0.19, 1, 0.22, 1);
   animation-delay: 5s;
@@ -85,7 +86,7 @@ body {
   transform: translate(-50%, -50%);
   color: white;
   text-align: center;
-  font-family: "Arial";
+  font-family: 'Arial';
   text-transform: uppercase;
   color: #646464;
   line-height: 24px;
@@ -108,7 +109,7 @@ body {
   border-radius: 100%;
   text-align: center;
   text-transform: uppercase;
-  font-family: "Cinzel";
+  font-family: 'Cinzel';
   background: #8f8776;
 }
 
@@ -135,7 +136,7 @@ body {
   position: absolute;
   color: grey;
   font-size: 48px;
-  font-family: "Cinzel";
+  font-family: 'Cinzel';
   text-transform: uppercase;
   font-weight: 400;
   padding: 20px;
@@ -147,7 +148,7 @@ body {
   position: absolute;
   color: red;
   font-size: 48px;
-  font-family: "Arial";
+  font-family: 'Arial';
   text-transform: uppercase;
   font-weight: lighter;
   padding: 18px;
@@ -170,7 +171,7 @@ body {
   position: absolute;
   color: white;
   font-size: 48px;
-  font-family: "Arial";
+  font-family: 'Arial';
   text-decoration: underline;
   text-transform: uppercase;
   font-weight: lighter;
@@ -213,7 +214,7 @@ body {
   padding: 0;
   color: #646464;
   font-size: 200px;
-  font-family: "Cinzel";
+  font-family: 'Cinzel';
 }
 
 .loader .intro {
@@ -229,7 +230,7 @@ body {
   text-transform: uppercase;
   font-weight: 200;
   color: #fff;
-  font-family: "Cinzel";
+  font-family: 'Cinzel';
 }
 
 .intro-title .letter {
